@@ -65,7 +65,7 @@ if __name__ == '__main__':
                 msg = m[4]
                 print("MSG = {0}".format(msg))
 
-                if (msg == ("~HELP~" or "~help~")):
+                if (msg == "~HELP~"):
                     # irc.send(PRIVMSG(channel, QAdata.__str__()))
                     Smsg = "I know these words: "
                     for QA in QAdata:
